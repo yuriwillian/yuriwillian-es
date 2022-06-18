@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuri Willian</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <script src="main.js"></script>
+    <header class="header">
+        <a href="/">Yuri Willian</a>
+        <ul class="menu" id="menu">
+            <li><a href="#biografia">¿Quien soy yo?</a></li>
+            <li><a href="#projetos">Proyectos</a></li>
+            <li><a href="#carreira">Carrera profesional</a></li>
+            <li><a href="#tecnologias">Tecnologías</a></li>
+        </ul>
+        <div class="btnMenu" onclick="abrirMenu()" ondblclick="esconderMenu()" id="btnMenu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    <div class="menuOculto" id="menuOculto" onmouseleave="esconderMenu()">         
+        <ul>
+            <li><a href="#biografia">¿Quien soy yo?</a></li>
+
+            <li><a href="#projetos">Proyectos</a></li>
+            <li><a href="#carreira">Carrera profesional</a></li>
+            <li><a href="#tecnologias">Tecnologías</a></li>
+        </ul>
+    </div>
+
+    <div class="quemSouEu" onclick="esconderMenu()">
+        <div>
+            <img src="/fotos/perfil.png" class="perfil">
+            <h2 class="nome">
+                Hola 😊, mi nombre es Yuri Willian y ayudo a la gente
+                 resolver problemas de tecnología de una manera simple y
+                 creativo.
+            </h2>
+
+            <a href="#formulario"><input type="button" value="Diga 'hola'" class="btnContato"></a>
+
+            <p class="dadosPessoais">
+                <h2>Mis redes sociales:</h2>
+                <br>
+                <a href="https://github.com/yuriwillian" target="_blank"><img src="/fotos/github-icon.svg"></a> 
+                <a href="https://linkedin.com/" target="_blank"><img src="/fotos/linkedin-icon.png"></a>
+                <!--Fazer o href inciar um email para mim-->
+                <a href="ENVIAR MENSAGEM PARA MIM" target="_blank"><img src="/fotos/gmail-icon.png"></a>
+            </p>
+        </div>
+    </div>
+    
+    <div class="projetos" id="projetos">
+        <h1>Proyectos</h1>
+
+        <div class="projeto">
+            <img src="/fotos/logo-luety-gallery.png">
+            <br>
+
+            <p>
+                ART Luety Gallery es una galería de arte en línea que vende arte original directamente de artistas apasionados por
+                por lo que hacen ;)
+            </p>
+
+            <a href="https://art-luety-gallery.vercel.app/" target="_blank"><input type="button" value="Ver Proyecto"></a>
+        </div>
+
+        <br>
+
+        <div class="projeto">
+            <img src="/fotos/logo-negro-joya.png">
+            <br>
+
+            <p>
+                Negro Joya es un cantante brasileño que actúa en Europa.
+                Necesitaba un sitio donde la gente interesada saliera
+                información de contacto para reservar un espectáculo.
+            </p>
+
+            <a href="https://negro-joya.vercel.app/" target="_blank"><input type="button" value="Ver Proyecto"></a>
+        </div>
+
+        <br>
+
+        <div class="projeto">
+            <img src="/fotos/logo-caminhos-do-senhor.png">
+            <br>
+
+            <p>
+                El Proyecto Caminhos do Senhor es una campaña benéfica diseñada para construir un lugar para que los niños aprendan,
+                  jugar y alimentarse en un ambiente seguro lejos de las calles. Tengo la intención de ampliar el proyecto mediante la creación de un
+                  suscripción para que los suscriptores contribuyan mensualmente al cuidado de los niños.
+            </p>
+            <a href="https://caminhos-do-senhor.vercel.app/" target="_blank"><input type="button" value="Ver Proyecto"></a>
+        </div>
+
+    </div>
+    <div class="biografia" id="biografia">
+        <h1>¿Quien soy yo?</h1>
+        <p>
+            Di 'Hola' Soy un apasionado de la tecnología desde muy temprana edad, cuando surgió la oportunidad de profundizar en el tema
+             en 2016 con un curso técnico profundicé. Empecé el curso de tecnología. de Programación en 2016 y el año siguiente
+             Empecé el curso más enfocado en hardware y redes: Tec. en Montaje y Mantenimiento.
+
+            <br><br>
+
+
+            En 2017 surgió la oportunidad de incorporarme al equipo de curso en el área pedagógica como monitor de aula antes
+             Al finalizar mi curso, además de ser monitor de sala, también era responsable del mantenimiento de las computadoras,
+             realizando auditorias y mantenimiento dentro de la empresa.
+
+            <br><br>
+
+            Salí de allí en 2018 por razones geográficas, agradecí los conocimientos aprendidos allí y entré en Mega Tejotão en
+            02/01/2018 como empacador y en un año fui ascendido a Asistente Administrativo, donde estuve
+            responsable de verificar si los proveedores realmente estaban entregando lo que figuraba en la factura.
+            <br><br>
+
+            Unos meses después gané el puesto de soporte de TI siendo responsable de toda la parte tecnológica del
+            Mercado. Tanto Hardware como Software, Infraestructura de Red y Firewall.
+
+            <br><br> 
+            
+            Después de eso me convertí en Consultor Técnico PJ de la empresa en 09/2020 Fui consultor para el
+            tecnología ayudando a resolver problemas y aportando Know How al equipo.
+
+            <br><br> 
+
+            Actualmente soy freelance, siempre trato de actualizar mi portafolio con mis últimos trabajos.
+             <a href="#projetos">Haga clic aquí</a> o ve al menú y haz clic en "proyectos" para ver mis últimos trabajos.
+            <br><br> 
+
+            Estoy buscando mi primera oportunidad de trabajo para aprender más sobre metodologías ágiles y desarrollo.
+             en un equipo. Quiero servir como desarrollador junior utilizando los conocimientos adquiridos anteriormente y evolucionar
+             cada vez más en la capacidad de resolver problemas!
+        </p>
+
+        <a href="#formulario"><input type="button" value="Fale comigo" class="btnContato"></a>
+    </div>
+
+    <div class="carreira" id="carreira">
+        <h1>Carrera profesional</h1>
+
+        <div class="empresa">
+            <h2 class="nomeEmpresa">Mega Tejotão</h2>
+
+            <div class="cargoCard">
+                <h3 class="cargo">Consultor técnico PJ</h3>
+
+                <details class="detalhesDoCargo">
+                    <ul>
+                        <p class="periodo"><strong>Periodo:</strong> 09/2020 - 02/2022</p>
+                        <p class="função">
+                            <strong>Lo que hice:</strong>
+                            <br>
+                            Brindé consultoría al equipo de tecnología, ayudando a resolver problemas y brindando Know How al equipo.
+                        </p>
+                    </ul>
+                </details>
+            </div>
+
+            <br>
+
+            <div class="cargoCard">
+                <h3 class="cargo">Suporte de T.I</h3>
+
+                <details class="detalhesDoCargo">
+                    <ul>
+                    <p class="periodo"><strong>Periodo:</strong> 02/2018 - 09/2020</p>
+                    <p class="função">
+                        <strong>Lo que hice:</strong>
+                        <br>
+                        Fui responsable de resolver todos los problemas de Hardware, Software, Redes, Máquinas Virtuales y VPN.
+                    </p>
+                    </ul>
+                </details>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="empresa">
+            <h2 class="nomeEmpresa">Prepara Cursos</h2>
+
+            <div class="cargoCard">
+                <h3 class="cargo">Pasante en el área Pedagógica</h3>
+
+                <details class="detalhesDoCargo">
+                    <ul>
+                        <p class="periodo"><strong>Periodo:</strong> 03/2016 - 12/2017</p>
+                        <p class="função">
+                            <strong>Lo que hice:</strong>
+                            <br>
+                            Yo era el responsable de monitorear la sala, responder las preguntas de los estudiantes y resolver cualquier problema técnico que ocurriera en sus máquinas.
+                        </p>
+                    </ul>
+                </details>
+            </div>
+        </div>
+        
+
+
+    </div>
+    
+   
+
+
+    
+
+    <div class="tecnologias" id="tecnologias">
+            <h1>Tecnologias que eu utilizo:</h1>
+        <div class="conhecimentos">
+            <div class="conhecimento">
+                <p>Javascript</p>
+                <img src="/fotos/javascript-icon.png">
+            </div>
+
+            <br>
+
+            <div class="conhecimento">
+                <p>CSS3</p>
+                <img src="/fotos/css3-icon.png">
+            </div>
+
+            <br>
+
+            <div class="conhecimento">
+                <p>HTML5</p>
+                <img src="/fotos/html5-icon.png">
+            </div>
+
+
+        </div>
+    </div>
+
+    
+
+    <form action="https://api.staticforms.xyz/submit" id="formulario" class="formulario" method="post">
+        <h1>Habla conmigo :)</h1>
+        <br>
+        <p>Escriba su nombre:</p>
+        <input type="text" placeholder="Digite seu nome aqui" name="name" required>
+        <p>Ingrese su mejor correo electrónico:</p>
+        <input type="email" placeholder="Digite seu email aqui" name="email" required>
+        <p>Introduce tu teléfono:</p>
+        <input type="number" placeholder="Digite seu número aqui" name="phone" required>
+        <input type="hidden" name="accessKey" value="23a7ae0c-bb87-4670-9c7a-117c26f0f41c">
+        <input type="hidden" name="redirectTo" value="http://localhost:5501/src/obrigado.html">
+        <br><br>
+        <input type="submit" value="Haga clic aquí para hablar" id="btnFormulario">
+    </form>
+
+    <footer class="rodape">
+        <div class="contatoRodape">
+            <h1>Entre en contacto:</h1>
+            <div class="redesRodape">
+                <a href="https://github.com/yuriwillian" target="_blank"><img src="/fotos/github-icon.svg"></a> 
+                <a href="https://linkedin.com/" target="_blank"><img src="/fotos/linkedin-icon.png"></a>
+                <!--Fazer o href inciar um email para mim-->
+                <a href="ENVIAR MENSAGEM PARA MIM" target="_blank"><img src="/fotos/gmail-icon.png"></a>
+            </div>
+
+        </div>
+        
+        <p>&copy;Yuri Willian</p>
+
+    </footer>
+
+
+
+</body>
+</html>
